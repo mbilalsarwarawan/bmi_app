@@ -1,4 +1,5 @@
 import 'package:bmi_app/screens/home.dart';
+import 'package:bmi_app/screens/splashscreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.yellow,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const HomeScreen(),
+      home: SplashScreen(),
     );
   }
 }
